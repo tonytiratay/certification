@@ -1,14 +1,25 @@
+.login {
+    text-align: right;
+}
+
+ .parallax-container {
+      height: 550px;
+}
+
 .section-top {
     background: url(img/bg.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 150px 0;
+    background-position: bottom center;
+    min-height: 500px;
 }
 
 .section-top h1 {
     color: #383838;
 }
 
-.section-top img {
-    max-width: 500px;;
+img {
+    max-width: 500px;
+    width: 100%;
 }

@@ -3,18 +3,46 @@
 </head>
 
 <body>
-    <section class="section-top">
-        <div class="container">
-            <p class="login">
-                {{> loginButtons}}
-            </p>
-            <h1 style="clear:both;"></h1> 
-            <h1>
-                La certification en ligne selon Guigui
-            </h1>
-            <img src="img/logo-big.png">
-         </div>
-    </section>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue-grey darken-4">
+                <div class="container">
+                  <ul class="right">
+                    <li>{{>loginButtons}}</li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+    </div>
+    
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img src="img/bg.jpg"></div>
+        <div class="container ">
+            <h1> La certification en ligne made in <img src="img/logo-big.png"> </h1>
+        </div>
+    </div>
+    <div class="container">
+        <div style="height:60px;"></div>
+        <div class="card-panel hoverable">
+            
+        <h2> Et pour quoi faire ?</h2>
+        <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains." </p>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+            <!-- Modal Structure -->
+              <div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                  <h4>Modal Header</h4>
+                  <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+                    </div>
+
+                </div>
+    </div>
 </body>
 
 

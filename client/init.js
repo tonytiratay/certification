@@ -3,7 +3,8 @@
 Session.setDefault('counter', 0);
   
 $(document).ready(function(){
-  $('.parallax').parallax();
+    $('.parallax').parallax();
+    $('.modal-trigger').leanModal();
 });
 
 Template.hello.helpers({
