@@ -1,0 +1,14 @@
+.section-top {
+    background: url(img/bg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+.section-top h1 {
+    color: #383838;
+}
+
+.section-top img {
+    max-width: 500px;;
+}

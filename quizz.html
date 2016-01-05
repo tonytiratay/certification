@@ -1,0 +1,28 @@
+<head>
+  <title>quizz</title>
+</head>
+
+<body>
+    <section class="section-top">
+        <div class="container">
+            <p class="login">
+                {{> loginButtons}}
+            </p>
+            <h1 style="clear:both;"></h1> 
+            <h1>
+                La certification en ligne selon Guigui
+            </h1>
+            <img src="img/logo-big.png">
+         </div>
+    </section>
+</body>
+
+
+
+<template name="hello">
+
+    {{#each questions}}
+        <p>{{title}}</p>
+    {{/each}}
+    
+</template>
